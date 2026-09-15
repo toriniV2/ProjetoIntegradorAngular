@@ -1,0 +1,7 @@
+<h1>Quantidade em estoque: {{quantidade}}</h1>
+
+
+<button [disabled]= "quantidade === 0" (click)="diminuir()">-</button>
+
+<button (click)="aumentar()">+</button>
+
