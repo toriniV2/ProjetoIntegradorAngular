@@ -1,0 +1,13 @@
+<input [(ngModel)]="produto">
+
+<input type="number" [(ngModel)]="preco" (ngModelChange)="calcularTotal()">
+
+<input type="number" [(ngModel)]="quantidade" (ngModelChange)="calcularTotal()">
+
+<p>Produto: {{produto}}</p>
+
+<p>Preço: {{preco | currency:'BRL'}}</p>
+
+<p>Quantidade: {{quantidade}}</p>
+
+<p>Total: {{total | currency:'BRL'}}</p>
