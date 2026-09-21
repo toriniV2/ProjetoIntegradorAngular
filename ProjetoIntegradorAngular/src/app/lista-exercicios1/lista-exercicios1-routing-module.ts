@@ -10,6 +10,8 @@ import { Exercicio7 } from './exercicio7/exercicio7';
 import { Exercicio8 } from './exercicio8/exercicio8';
 import { Exercicio9 } from './exercicio9/exercicio9';
 import { Exercicio10 } from './exercicio10/exercicio10';
+import { Exercicio11 } from './exercicio11/exercicio11';
+import { Desafiofinal } from './desafiofinal/desafiofinal';
 
 const routes: Routes = [
 
@@ -23,6 +25,9 @@ const routes: Routes = [
   {path: 'exercicio8', component: Exercicio8},
   {path: 'exercicio9', component: Exercicio9},
   {path: 'exercicio10', component: Exercicio10},
+  {path: 'exercicio11', component: Exercicio11},
+  {path: 'desafiofinal', component: Desafiofinal}
+  
 ];
 
 @NgModule({

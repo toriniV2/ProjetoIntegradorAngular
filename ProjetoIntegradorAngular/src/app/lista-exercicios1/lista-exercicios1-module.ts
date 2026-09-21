@@ -13,6 +13,8 @@ import { Exercicio7 } from './exercicio7/exercicio7';
 import { Exercicio8 } from './exercicio8/exercicio8';
 import { Exercicio9 } from './exercicio9/exercicio9';
 import { Exercicio10 } from './exercicio10/exercicio10';
+import { Exercicio11 } from './exercicio11/exercicio11';
+import { Desafiofinal } from './desafiofinal/desafiofinal';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { Exercicio10 } from './exercicio10/exercicio10';
     Exercicio8,
     Exercicio9,
     Exercicio10,
+    Exercicio11,
+    Desafiofinal,
   ],
   imports: [CommonModule, ListaExercicios1RoutingModule, FormsModule],
 })
