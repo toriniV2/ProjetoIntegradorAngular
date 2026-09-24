@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-desafiofinal',
+  selector: 'app-desafiofinal', 
   standalone: false,
   templateUrl: './desafiofinal.html',
   styleUrl: './desafiofinal.scss',
